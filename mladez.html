@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mládež - Hasiči Vinary</title>
+  <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__content">
+      <a href="index.html" class="logo">Hasiči Vinary</a>
+      <nav class="nav">
+        <input type="checkbox" id="nav-toggle" class="nav__toggle-input">
+        <label for="nav-toggle" class="nav__toggle-label">&#9776;</label>
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Domů</a></li>
+          <li><a href="mladez.html" class="nav__link active">Mládež</a></li>
+          <li><a href="kontakt.html" class="nav__link">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="container">
+      <h1>Aktuality naší mládeže</h1>
+      <p>Podívejte se, co všechno s dětmi podnikáme. Od tréninků požárního útoku po výlety a soutěže.</p>
+      
+      <div class="gallery-grid">
+        
+     <article class="card">
+          <img src="img/20250329_131832.jpg" alt="Děti trénují s hadicemi" class="card__image">
+          <div class="card__content">
+            <h3 class="card__title">Uklidme Česko</h3>
+            <p>Dneska se naši mladi hasiči s rodiči pustili do uklízení Vinar a okolí</p>
+           
+          </div>
+        </article>
+    
+        
+        <article class="card">
+          <img src="img/20240511_162626 (1).jpg" alt="Předávání medailí" class="card__image">
+          <div class="card__content">
+            <h3 class="card__title">Vítězství v soutěži</h3>
+            <p>Zasloužené první místo v sousední obci.</p>
+            
+          </div>
+        </article>
+        
+        <article class="card">
+          <img src="img/IMG_5762.JPEG" alt="" class="card__image">
+          <div class="card__content">
+            <h3 class="card__title">Trenink i v dešti</h3>
+            <p>Nejen trénink v hezkým počasím, take v nepříznivém počasí</p>
+            
+          </div>
+        </article>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Kontaktní e-mail: <a href="mailto:info@hasicivinary.cz">info@hasicivinary.cz</a></p>
+     <p><script>
+        const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
+        const today = new Date();
+        document.write('Poslední aktualizace: ' + today.toLocaleDateString('cs-CZ', options));
+      </script></p>
+      <p>&copy; 2025 Hasiči Vinary (Studentský projekt)</p>
+     
+    </div>
+  </footer>
+
+</body>
+</html>

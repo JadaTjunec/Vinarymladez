@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - Hasiči Vinary</title>
+  <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__content">
+      <a href="index.html" class="logo">Hasiči Vinary</a>
+      <nav class="nav">
+        <input type="checkbox" id="nav-toggle" class="nav__toggle-input">
+        <label for="nav-toggle" class="nav__toggle-label">&#9776;</label>
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Domů</a></li>
+          <li><a href="mladez.html" class="nav__link">Mládež</a></li>
+          <li><a href="kontakt.html" class="nav__link active">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="container">
+      <h1>Kontakt</h1>
+      <p>Máte zájem přihlásit své dítě do našeho kroužku mladých hasičů? Neváhejte nás kontaktovat.</p>
+      
+      <article class="card">
+        <div class="card__content">
+          <h3 class="card__title">Kontaktní údaje</h3>
+          <p>
+            <strong>Vedoucí mládeže:</strong><br><br>
+           Lenka Truncova<br>
+            <strong>Email:</strong> <a href="mailto:lenka.truncov@seznam.cz">lenka.truncov@seznam.cz</a><br>
+            <strong>Telefon:</strong> +420 777 349 782 <br>
+            <br>
+
+            Jaromir Trunec<br>
+            <strong>Email:</strong> <a href="mailto:lenka.truncov@seznam.cz">lenka.truncov@seznam.cz</a><br>
+            <strong>Telefon:</strong> +420 777 349 782
+          </p>
+          <p>
+            <strong>Sidlo:</strong><br>
+           Vinary 67<br>
+           538 63 Chroustovice
+          </p>
+          <p>Tréninky probíhají každý pátek od 16:00. </p>
+        </div>
+      </article>
+      
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Kontaktní e-mail: <a href="mailto:info@hasicivinary.cz">info@hasicivinary.cz</a></p>
+      <p><script>
+        const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
+        const today = new Date();
+        document.write('Poslední aktualizace: ' + today.toLocaleDateString('cs-CZ', options));
+      </script></p>
+      
+    </div>
+  </footer>
+
+</body>
+</html>

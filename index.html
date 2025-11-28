@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasiči Vinary - Mládež</title>
+  <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__content">
+      <a href="index.html" class="logo">Hasiči Vinary</a>
+      
+      <nav class="nav">
+        <input type="checkbox" id="nav-toggle" class="nav__toggle-input">
+        <label for="nav-toggle" class="nav__toggle-label">&#9776;</label> <ul class="nav__list">
+          <li><a href="index.html" class="nav__link active">Domů</a></li>
+          <li><a href="mladez.html" class="nav__link">Mládež</a></li>
+          <li><a href="kontakt.html" class="nav__link">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero__title">Mladí Hasiči Vinary</h1>
+      <p class="hero__subtitle">Výchova nové generace záchranářů.</p>
+    </section>
+
+    <section class="container main">
+      <h2>Vítejte na našem webu</h2>
+      <p>Jsme sbor dobrovolných hasičů z Vinar a toto je stránka věnovaná naší skvělé mládeži. Věnujeme se přípravě dětí a dorostenců na hasičský sport i budoucí službu.</p>
+      <p>Na našich stránkách najdete informace o trénincích, úspěších na soutěžích a fotky z našich akcí.</p>
+      <a href="fotky.html" class="btn btn--primary">Prohlédnout fotky</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Kontaktní e-mail: <a href="mailto:info@hasicivinary.cz">info@hasicivinary.cz</a></p>
+      <p><script>
+        const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
+        const today = new Date();
+        document.write('Poslední aktualizace: ' + today.toLocaleDateString('cs-CZ', options));
+      </script></p>
+      <p>&copy; 2025 Hasiči Vinary (Studentský projekt)</p>
+      
+     
+    </div>
+  </footer>
+
+</body>
+</html>
