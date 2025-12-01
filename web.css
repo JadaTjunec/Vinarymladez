@@ -156,6 +156,7 @@ a:hover, a:focus {
   color: var(--color-primary);
   border-left: 4px solid var(--color-primary);
   padding-left: var(--space-2);
+   max-height: 500px;
 }
 
 .nav__toggle-input { display: none; }
@@ -180,6 +181,7 @@ a:hover, a:focus {
 .nav__toggle-input:checked ~ .nav__toggle-label {
   color: var(--color-primary);
   position: relative;
+   
 
 }
 
@@ -324,4 +326,5 @@ a:hover, a:focus {
   .footer {
     padding: var(--space-4) 0;
   }
+
 }
