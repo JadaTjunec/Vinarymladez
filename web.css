@@ -138,7 +138,7 @@ a:hover, a:focus {
   background: var(--color-bg-light);
   display: flex;
   flex-direction: column;
-  padding: 80px var(--space-4) var(--space-4);
+  padding:  var(--space-4) var(--space-4);
   gap: var(--space-2);
   box-shadow: -5px 0 15px rgba(0,0,0,0.5);
   transform: translateX(100%);
@@ -156,24 +156,22 @@ a:hover, a:focus {
   color: var(--color-primary);
   border-left: 4px solid var(--color-primary);
   padding-left: var(--space-2);
-   max-height: 500px;
 }
 
 .nav__toggle-input { display: none; }
 
 .nav__toggle-label {
-
   font-size: 1rem;
   cursor: pointer;
   color: var(--color-text);
   z-index: 101;
-  user-select: none;
+  user-select: none; 
 } 
 
 .nav__toggle-input:checked ~ .nav__list {
   transform: translateX(0);
   max-width: 200px;
-  max-height: 500px;
+  
 
 
 }
@@ -181,9 +179,9 @@ a:hover, a:focus {
 .nav__toggle-input:checked ~ .nav__toggle-label {
   color: var(--color-primary);
   position: relative;
-   
 
 }
+
 
 .hero {
   min-height: 40vh;
@@ -242,6 +240,7 @@ a:hover, a:focus {
   display: flex;
   flex-direction: column;
   height: 100%;
+  margin: var(--space-2);
 }
 
 .card__image {
@@ -253,6 +252,7 @@ a:hover, a:focus {
 .card__content {
   padding: var(--space-2);
   flex-grow: 1;
+
 }
 
 .card__title {
@@ -269,6 +269,7 @@ a:hover, a:focus {
   margin-top: auto;
   width: 100%;
   border-top: 1px solid var(--color-secondary);
+  
 }
 @media(min-width:500px) {
   .logo {
@@ -325,6 +326,6 @@ a:hover, a:focus {
   .hero__title { font-size: 3.5rem; }
   .footer {
     padding: var(--space-4) 0;
+    
   }
-
 }
