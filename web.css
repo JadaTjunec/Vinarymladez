@@ -172,6 +172,7 @@ a:hover, a:focus {
 .nav__toggle-input:checked ~ .nav__list {
   transform: translateX(0);
   max-width: 200px;
+  max-height: 500px;
 
 
 }
@@ -323,4 +324,5 @@ a:hover, a:focus {
   .footer {
     padding: var(--space-4) 0;
   }
+
 }
