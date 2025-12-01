@@ -134,7 +134,6 @@ a:hover, a:focus {
   top: 0;
   right: 0;
   width: 70%;
-  max-width: 300px;
   height: 100vh;
   background: var(--color-bg-light);
   display: flex;
@@ -162,7 +161,7 @@ a:hover, a:focus {
 .nav__toggle-input { display: none; }
 
 .nav__toggle-label {
-  display: block;
+
   font-size: 1rem;
   cursor: pointer;
   color: var(--color-text);
@@ -174,11 +173,13 @@ a:hover, a:focus {
   transform: translateX(0);
   max-width: 200px;
 
+
 }
 
 .nav__toggle-input:checked ~ .nav__toggle-label {
   color: var(--color-primary);
   position: relative;
+
 }
 
 .hero {
