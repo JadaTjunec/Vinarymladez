@@ -161,6 +161,7 @@ a:hover, a:focus {
 .nav__toggle-input { display: none; }
 
 .nav__toggle-label {
+
   font-size: 1rem;
   cursor: pointer;
   color: var(--color-text);
@@ -322,7 +323,4 @@ a:hover, a:focus {
   .footer {
     padding: var(--space-4) 0;
   }
-
 }
-
-
