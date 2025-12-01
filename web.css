@@ -170,7 +170,7 @@ a:hover, a:focus {
 
 .nav__toggle-input:checked ~ .nav__list {
   transform: translateX(0);
-  max-width: 250px;
+  max-width: 200px;
 
 
 }
@@ -324,4 +324,5 @@ a:hover, a:focus {
   }
 
 }
+
 
