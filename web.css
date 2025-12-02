@@ -60,7 +60,7 @@
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
-    overflow-x: hidden;
+    
   }
 
   h1, h2, h3 {
@@ -108,6 +108,7 @@
     position: relative;
     z-index: 100;
     height: auto;
+    padding-left: var(--space-1);
   }
 
   .header__content {
@@ -139,17 +140,27 @@
 }
 
 @layer components {
-  /* Logo */
+  .container__header {
+    padding-left: var(--space-1);
+  }
   .logo {
     font-size: 1rem;
     font-weight: bold;
     color: var(--color-primary);
     font-family: var(--font-family-heading);
-    z-index: 101;
+   
+  }
+  .logo-img{
+    height: 30px;
+    vertical-align: middle;
+    float: left;
+    margin-right:var(--space-1) ;
   }
 
-  @media(min-width: 500px) { .logo { font-size: 1.25rem; } }
-  @media(min-width: 768px) { .logo { font-size: 1.5rem; } }
+
+
+  @media(min-width: 500px) { .logo { font-size: 1.25rem; } .logo-img{ height: 50px; } }
+  @media(min-width: 768px) { .logo { font-size: 1.5rem; } .logo-img{ height: 60px; } }
 
   .btn {
     display: inline-block;
@@ -358,7 +369,7 @@
     font-size: 1.25rem;
     color: var(--color-primary);
     margin-bottom: var(--space-1);
-    padding: var(--space-4);
+    
   }
 
   .mapka {
