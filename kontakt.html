@@ -27,7 +27,7 @@
     <section class="container">
       <h1>Kontakt</h1>
       <p>Máte zájem přihlásit své dítě do našeho kroužku mladých hasičů? Neváhejte nás kontaktovat.</p>
-      
+      <div class="gallery-grid">
       <article class="card">
         <div class="card__content">
           <h3 class="card__title">Kontaktní údaje</h3>
@@ -55,20 +55,33 @@
           <div class="card__content">
             <h3 class="card__title">Napište nám</h3>
             <label for="name">Jméno:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+            <input type="text" id="name" name="name" required class="form"><br><br>
             
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+            <input type="email" id="email" name="email" required class="form"><br><br>
             
             <label for="message">Zpráva:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <textarea id="message" name="message" rows="4" required class="form"></textarea><br><br>
             
-            <input type="submit" value="Odeslat">
+            <input type="submit" value="Odeslat" class="submit-button">
           </div>
         </form>
 
       </article>
-      
+    
+      <article class="card">
+        
+        <div class="card__content">
+          <h3 class="card__title">Mapa</h3>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2586.456789123456!2d15.780123456789012!3d49.89512345678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470f123456789abc%3A0xabcdef1234567890!2sVinary%2067%2C%20538%2063%20Chroustovice!5e0!3m2!1scs!2scz!4v1610000000000!5m2!1scs!2scz"  
+            allowfullscreen="" 
+            loading="lazy"
+            class="mapka">
+          </iframe>
+        </div>
+      </article>
+      </div>
     </section>
   </main>
 
